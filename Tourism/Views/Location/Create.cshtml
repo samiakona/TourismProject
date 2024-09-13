@@ -1,0 +1,57 @@
+﻿@model Tourism.DTO.LocationDTO
+
+
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Location</h2>
+            <hr />
+        </div>
+
+        <div class="mb-3 row p-1">
+            <label asp-for="LocationName" class="p-0">Location Name</label>
+            <input asp-for="LocationName" class="form-control" />
+            <span asp-validation-for="LocationName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 row p-1">
+            <label asp-for="LocationAddress" class="p-0">Location Address</label>
+            <input asp-for="LocationAddress" class="form-control" />
+            <span asp-validation-for="LocationAddress" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="LocationCity" class="p-0">Location City</label>
+            <input asp-for="LocationCity" class="form-control" type="text" />
+            <span asp-validation-for="LocationCity" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Cost" class="p-0">Cost</label>
+            <input asp-for="Cost" class="form-control" />
+            <span asp-validation-for="Cost" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 row p-1">
+            <label asp-for="Capacity" class="p-0">Capacity</label>
+            <input asp-for="Capacity" class="form-control" />
+            <span asp-validation-for="Capacity" class="text-danger"></span>
+        </div>
+
+     
+
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <button type="submit" class="btn btn-primary form-control">Create</button>
+            </div>
+            <div class="col-6 col-md-3">
+                <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control">
+                    Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

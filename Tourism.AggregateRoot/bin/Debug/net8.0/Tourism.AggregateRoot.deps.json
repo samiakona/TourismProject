@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Tourism.AggregateRoot/1.0.0": {
+        "dependencies": {
+          "Tourism.DTO": "1.0.0"
+        },
+        "runtime": {
+          "Tourism.AggregateRoot.dll": {}
+        }
+      },
+      "Tourism.DTO/1.0.0": {
+        "runtime": {
+          "Tourism.DTO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tourism.AggregateRoot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tourism.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
