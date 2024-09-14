@@ -19,28 +19,60 @@ namespace Tourism.Handler
 
         public void CreateLocation(LocationDTO locationDto)
         {
+            // Create a new instance of Location
             var location = new Location();
-            location.MapToDTO(locationDto);
-            _locationRepository.AddLocation(location);
 
+            // Map properties from DTO to Location instance
+            location.MapFromDTO(locationDto);
+
+            // Validate the location using your custom validation logic
+            List<string> validationErrors;
+            if (!location.validate(out validationErrors))
+            {
+                // Handle validation errors, for example, by logging or throwing an exception
+                foreach (var error in validationErrors)
+                {
+                    Console.WriteLine(error); // Or handle errors as required
+                }
+                return; // Exit the method since validation failed
+            }
+
+            // If valid, add the location to the repository
+            _locationRepository.AddLocation(location);
         }
+
+
+        public void UpdateLocation(LocationDTO locationDto)
+        {
+
+            List<string> validationErrors;
+
+            // Retrieve the location from the repository
+            var location = _locationRepository.GetLocationById(locationDto.Id);
+
+            // Map the DTO values to the Location entity
+            location.MapFromDTO(locationDto);
+
+            // Validate the updated location
+            if (!location.validate(out validationErrors))
+            {
+                foreach (var error in validationErrors)
+                {
+                    Console.WriteLine(error); // Or handle errors as required
+                }
+                return;
+            }
+
+            // If validation passes, update the location in the repository
+            _locationRepository.UpdateLocation(location);
+           
+        }
+
+
 
         public void DeleteLocation(int id)
         {
             _locationRepository.DeleteLocation(id);
-        }
-
-       
-        public void UpdateLocation(LocationDTO locationDto)
-        {
-           var location = _locationRepository.GetLocationById(locationDto.Id);
-            if(location == null)
-            {
-                throw new ArgumentException("Location Not Found");
-            }
-            location.MapToDTO(locationDto);
-            _locationRepository.UpdateLocation(location);
-
         }
 
         public LocationDTO GetLocationById(int id)
@@ -66,5 +98,7 @@ namespace Tourism.Handler
                
             });
         }
+
+
     }
 }

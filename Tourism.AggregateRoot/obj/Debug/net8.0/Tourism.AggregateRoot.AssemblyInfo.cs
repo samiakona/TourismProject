@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tourism.AggregateRoot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f0542a0d6ed6a1c5ac3eb7bb81e1731b4148866")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tourism.AggregateRoot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tourism.AggregateRoot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

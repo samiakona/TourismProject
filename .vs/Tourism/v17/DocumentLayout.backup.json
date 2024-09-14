@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Bdjobs\\Tourism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09AC3988-B2BE-433E-A545-06ACCCF42913}|Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj|d:\\bdjobs\\tourism\\tourism.aggregateroot\\model\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AC3988-B2BE-433E-A545-06ACCCF42913}|Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj|solutionrelative:tourism.aggregateroot\\model\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E596FBB5-CDC0-4DDC-8B65-02B0DE43CB0D}|Tourism\\Tourism.MVC.csproj|d:\\bdjobs\\tourism\\tourism\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E596FBB5-CDC0-4DDC-8B65-02B0DE43CB0D}|Tourism\\Tourism.MVC.csproj|solutionrelative:tourism\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AC3988-B2BE-433E-A545-06ACCCF42913}|Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj|d:\\bdjobs\\tourism\\tourism.aggregateroot\\model\\locationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AC3988-B2BE-433E-A545-06ACCCF42913}|Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj|solutionrelative:tourism.aggregateroot\\model\\locationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E375D582-88A5-42CF-81FB-3E28E65B0164}|Tourism.Handler\\Tourism.Handler.csproj|d:\\bdjobs\\tourism\\tourism.handler\\locationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E375D582-88A5-42CF-81FB-3E28E65B0164}|Tourism.Handler\\Tourism.Handler.csproj|solutionrelative:tourism.handler\\locationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocationValidator.cs",
+              "DocumentMoniker": "D:\\Bdjobs\\Tourism\\Tourism.AggregateRoot\\Model\\LocationValidator.cs",
+              "RelativeDocumentMoniker": "Tourism.AggregateRoot\\Model\\LocationValidator.cs",
+              "ToolTip": "D:\\Bdjobs\\Tourism\\Tourism.AggregateRoot\\Model\\LocationValidator.cs",
+              "RelativeToolTip": "Tourism.AggregateRoot\\Model\\LocationValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:45:24.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocationHandler.cs",
+              "DocumentMoniker": "D:\\Bdjobs\\Tourism\\Tourism.Handler\\LocationHandler.cs",
+              "RelativeDocumentMoniker": "Tourism.Handler\\LocationHandler.cs",
+              "ToolTip": "D:\\Bdjobs\\Tourism\\Tourism.Handler\\LocationHandler.cs",
+              "RelativeToolTip": "Tourism.Handler\\LocationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T05:47:48.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "D:\\Bdjobs\\Tourism\\Tourism\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "Tourism\\Controllers\\LocationController.cs",
+              "ToolTip": "D:\\Bdjobs\\Tourism\\Tourism\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "Tourism\\Controllers\\LocationController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:16:20.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\Bdjobs\\Tourism\\Tourism.AggregateRoot\\Model\\Location.cs",
+              "RelativeDocumentMoniker": "Tourism.AggregateRoot\\Model\\Location.cs",
+              "ToolTip": "D:\\Bdjobs\\Tourism\\Tourism.AggregateRoot\\Model\\Location.cs",
+              "RelativeToolTip": "Tourism.AggregateRoot\\Model\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:20:07.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

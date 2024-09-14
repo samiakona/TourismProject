@@ -9,3 +9,15 @@ G:\kona\Bdjobs\new\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.dll
 G:\kona\Bdjobs\new\Tourism\Tourism.DTO\obj\Debug\net8.0\refint\Tourism.DTO.dll
 G:\kona\Bdjobs\new\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.pdb
 G:\kona\Bdjobs\new\Tourism\Tourism.DTO\obj\Debug\net8.0\ref\Tourism.DTO.dll
+D:\Bdjobs\Tourism\Tourism.DTO\bin\Debug\net8.0\Tourism.DTO.deps.json
+D:\Bdjobs\Tourism\Tourism.DTO\bin\Debug\net8.0\Tourism.DTO.dll
+D:\Bdjobs\Tourism\Tourism.DTO\bin\Debug\net8.0\Tourism.DTO.pdb
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.AssemblyInfoInputs.cache
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.AssemblyInfo.cs
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.csproj.CoreCompileInputs.cache
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.sourcelink.json
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.dll
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\refint\Tourism.DTO.dll
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\Tourism.DTO.pdb
+D:\Bdjobs\Tourism\Tourism.DTO\obj\Debug\net8.0\ref\Tourism.DTO.dll

@@ -34,13 +34,9 @@ namespace Tourism.MVC.Controllers
         [HttpPost]
         public IActionResult Create(LocationDTO locationDto)
         {
-            if(ModelState.IsValid)
-            {
-                _locationHandler.CreateLocation(locationDto);
-                TempData["success"] = "Location Created Successful..";
-                return RedirectToAction("Index");
-            }
-            return View();
+
+            _locationHandler.CreateLocation(locationDto);         
+             return View();
         }
 
 
@@ -58,13 +54,8 @@ namespace Tourism.MVC.Controllers
         [HttpPost]
         public IActionResult Edit(LocationDTO locationDto)
         {
-            if (ModelState.IsValid) 
-            {
-                _locationHandler.UpdateLocation(locationDto);
-                TempData["success"] = "Location Update successful..";
-                return RedirectToAction("Index");
-            }
-           
+
+             _locationHandler.UpdateLocation(locationDto);   
             return View(locationDto);
         }
 

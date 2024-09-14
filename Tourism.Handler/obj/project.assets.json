@@ -4163,19 +4163,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kamrul\\.nuget\\packages\\": {}
+    "C:\\Users\\kona\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.Handler\\Tourism.Handler.csproj",
+      "projectUniqueName": "D:\\Bdjobs\\Tourism\\Tourism.Handler\\Tourism.Handler.csproj",
       "projectName": "Tourism.Handler",
-      "projectPath": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.Handler\\Tourism.Handler.csproj",
-      "packagesPath": "C:\\Users\\Kamrul\\.nuget\\packages\\",
-      "outputPath": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.Handler\\obj\\",
+      "projectPath": "D:\\Bdjobs\\Tourism\\Tourism.Handler\\Tourism.Handler.csproj",
+      "packagesPath": "C:\\Users\\kona\\.nuget\\packages\\",
+      "outputPath": "D:\\Bdjobs\\Tourism\\Tourism.Handler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kamrul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kona\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4190,14 +4190,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj": {
-              "projectPath": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj"
+            "D:\\Bdjobs\\Tourism\\Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj": {
+              "projectPath": "D:\\Bdjobs\\Tourism\\Tourism.AggregateRoot\\Tourism.AggregateRoot.csproj"
             },
-            "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj": {
-              "projectPath": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj"
+            "D:\\Bdjobs\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj": {
+              "projectPath": "D:\\Bdjobs\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj"
             },
-            "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.Repository\\Tourism.Repository.csproj": {
-              "projectPath": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.Repository\\Tourism.Repository.csproj"
+            "D:\\Bdjobs\\Tourism\\Tourism.Repository\\Tourism.Repository.csproj": {
+              "projectPath": "D:\\Bdjobs\\Tourism\\Tourism.Repository\\Tourism.Repository.csproj"
             }
           }
         }

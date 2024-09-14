@@ -6,29 +6,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tourism.DTO;
+using System.Globalization;
 
 namespace Tourism.AggregateRoot.Model
 {
     public class Location
     {
-        [Key]
+       
+       [Key]
         public int Id { get; set; }
 
-        [Required]
-        [MaxLength(100)] // Example limit
         public string LocationName { get; set; }
 
-        [MaxLength(250)]
         public string LocationAddress { get; set; }
 
-        [MaxLength(50)]
         public string LocationCity { get; set; }
-
-        [Range(0, int.MaxValue, ErrorMessage = "Cost must be a positive value.")]
-        [Column(TypeName = "decimal(18, 2)")]
+ 
         public decimal Cost { get; set; } // Changed to decimal for currency handling
 
-        [Range(1, int.MaxValue, ErrorMessage = "Capacity must be greater than 0.")]
         public int Capacity { get; set; }
 
 
@@ -51,13 +46,26 @@ namespace Tourism.AggregateRoot.Model
         public void MapFromDTO(LocationDTO locationDto)
         {
             this.Id = locationDto.Id;
-            this.LocationName = locationDto.LocationName;
+            this.LocationName = locationDto.LocationName;  // LocationName is set here from DTO
             this.LocationAddress = locationDto.LocationAddress;
             this.LocationCity = locationDto.LocationCity;
             this.Cost = locationDto.Cost;
             this.Capacity = locationDto.Capacity;
-
         }
+
+
+
+        public bool validate(out List<string> validationErrors)
+        {
+            var validator = new LocationValidator();
+            return validator.Validate(this, out validationErrors);
+        }
+
+
+
 
     }
 }
+
+
+

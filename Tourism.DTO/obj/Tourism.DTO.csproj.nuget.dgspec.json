@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj": {}
+    "D:\\Bdjobs\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj": {}
   },
   "projects": {
-    "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj": {
+    "D:\\Bdjobs\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj",
+        "projectUniqueName": "D:\\Bdjobs\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj",
         "projectName": "Tourism.DTO",
-        "projectPath": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj",
-        "packagesPath": "C:\\Users\\Kamrul\\.nuget\\packages\\",
-        "outputPath": "G:\\kona\\Bdjobs\\new\\Tourism\\Tourism.DTO\\obj\\",
+        "projectPath": "D:\\Bdjobs\\Tourism\\Tourism.DTO\\Tourism.DTO.csproj",
+        "packagesPath": "C:\\Users\\kona\\.nuget\\packages\\",
+        "outputPath": "D:\\Bdjobs\\Tourism\\Tourism.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kamrul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
